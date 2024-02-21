@@ -8,17 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		482E41DC2B86812400E3448F /* SwiftNavigationTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E41DB2B86812400E3448F /* SwiftNavigationTestApp.swift */; };
-		482E41DE2B86812400E3448F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E41DD2B86812400E3448F /* ContentView.swift */; };
 		482E41E02B86812600E3448F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482E41DF2B86812600E3448F /* Assets.xcassets */; };
 		482E41E32B86812600E3448F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 482E41E22B86812600E3448F /* Preview Assets.xcassets */; };
+		482E41EB2B86827A00E3448F /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 482E41EA2B86827A00E3448F /* ComposableArchitecture */; };
+		482E41F22B8682E700E3448F /* CreateProfileFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E41EC2B8682E700E3448F /* CreateProfileFlowView.swift */; };
+		482E41F32B8682E700E3448F /* CreateProfileIntroStepReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E41ED2B8682E700E3448F /* CreateProfileIntroStepReducer.swift */; };
+		482E41F42B8682E700E3448F /* CreateProfileIntroStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E41EE2B8682E700E3448F /* CreateProfileIntroStepView.swift */; };
+		482E41F52B8682E700E3448F /* CreateProfileTeamsStepReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E41EF2B8682E700E3448F /* CreateProfileTeamsStepReducer.swift */; };
+		482E41F62B8682E700E3448F /* CreateProfileTeamsStepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E41F02B8682E700E3448F /* CreateProfileTeamsStepView.swift */; };
+		482E41F72B8682E700E3448F /* CreateProfileFlowReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 482E41F12B8682E700E3448F /* CreateProfileFlowReducer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		482E41D82B86812400E3448F /* SwiftNavigationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftNavigationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		482E41DB2B86812400E3448F /* SwiftNavigationTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftNavigationTestApp.swift; sourceTree = "<group>"; };
-		482E41DD2B86812400E3448F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		482E41DF2B86812600E3448F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		482E41E22B86812600E3448F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		482E41EC2B8682E700E3448F /* CreateProfileFlowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileFlowView.swift; sourceTree = "<group>"; };
+		482E41ED2B8682E700E3448F /* CreateProfileIntroStepReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileIntroStepReducer.swift; sourceTree = "<group>"; };
+		482E41EE2B8682E700E3448F /* CreateProfileIntroStepView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileIntroStepView.swift; sourceTree = "<group>"; };
+		482E41EF2B8682E700E3448F /* CreateProfileTeamsStepReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileTeamsStepReducer.swift; sourceTree = "<group>"; };
+		482E41F02B8682E700E3448F /* CreateProfileTeamsStepView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileTeamsStepView.swift; sourceTree = "<group>"; };
+		482E41F12B8682E700E3448F /* CreateProfileFlowReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateProfileFlowReducer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				482E41EB2B86827A00E3448F /* ComposableArchitecture in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,7 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				482E41DB2B86812400E3448F /* SwiftNavigationTestApp.swift */,
-				482E41DD2B86812400E3448F /* ContentView.swift */,
+				482E41F12B8682E700E3448F /* CreateProfileFlowReducer.swift */,
+				482E41EC2B8682E700E3448F /* CreateProfileFlowView.swift */,
+				482E41ED2B8682E700E3448F /* CreateProfileIntroStepReducer.swift */,
+				482E41EE2B8682E700E3448F /* CreateProfileIntroStepView.swift */,
+				482E41EF2B8682E700E3448F /* CreateProfileTeamsStepReducer.swift */,
+				482E41F02B8682E700E3448F /* CreateProfileTeamsStepView.swift */,
 				482E41DF2B86812600E3448F /* Assets.xcassets */,
 				482E41E12B86812600E3448F /* Preview Content */,
 			);
@@ -83,6 +100,9 @@
 			dependencies = (
 			);
 			name = SwiftNavigationTest;
+			packageProductDependencies = (
+				482E41EA2B86827A00E3448F /* ComposableArchitecture */,
+			);
 			productName = SwiftNavigationTest;
 			productReference = 482E41D82B86812400E3448F /* SwiftNavigationTest.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +131,9 @@
 				Base,
 			);
 			mainGroup = 482E41CF2B86812400E3448F;
+			packageReferences = (
+				482E41E92B86827A00E3448F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 482E41D92B86812400E3448F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				482E41DE2B86812400E3448F /* ContentView.swift in Sources */,
+				482E41F72B8682E700E3448F /* CreateProfileFlowReducer.swift in Sources */,
+				482E41F62B8682E700E3448F /* CreateProfileTeamsStepView.swift in Sources */,
+				482E41F32B8682E700E3448F /* CreateProfileIntroStepReducer.swift in Sources */,
 				482E41DC2B86812400E3448F /* SwiftNavigationTestApp.swift in Sources */,
+				482E41F22B8682E700E3448F /* CreateProfileFlowView.swift in Sources */,
+				482E41F42B8682E700E3448F /* CreateProfileIntroStepView.swift in Sources */,
+				482E41F52B8682E700E3448F /* CreateProfileTeamsStepReducer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +370,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		482E41E92B86827A00E3448F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		482E41EA2B86827A00E3448F /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 482E41E92B86827A00E3448F /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 482E41D02B86812400E3448F /* Project object */;
 }

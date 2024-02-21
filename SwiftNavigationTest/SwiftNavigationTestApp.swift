@@ -6,12 +6,15 @@
 //
 
 import SwiftUI
+import ComposableArchitecture
 
 @main
 struct SwiftNavigationTestApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CreateProfileFlowView(store: .init(initialState: .init(), reducer: {
+                CreateProfileFlowReducer()
+            }))
         }
     }
 }
